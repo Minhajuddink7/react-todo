@@ -1,0 +1,45 @@
+.add {
+  border: none;
+  background-color: #2475b0;
+  font-size: 2.5rem;
+  padding: 0 15px;
+  margin-left: 15px;
+}
+.add:hover {
+  color: #555;
+}
+.add:focus {
+  outline: none;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #777;
+}
+span {
+  font-size: 3rem;
+  flex: 1;
+}
+
+.form input {
+  width: 70%;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #ddd;
+}
+.form input:focus {
+  outline: none;
+}
+
+@media (min-width: 500px) {
+  .form input {
+    width: 350px;
+  }
+}
